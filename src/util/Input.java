@@ -18,7 +18,7 @@ public class Input {
         }
         return false;
     }
-    int getInt(int min, int max){
+    public int getInt(int min, int max){
         int input;
         do{
             System.out.println("Enter a number that is within my range.");
@@ -27,7 +27,7 @@ public class Input {
 
         return input;
     }
-    int getInt(){
+    public int getInt(){
         System.out.println("Give me a number.");
         int input = Integer.parseInt(scanner.nextLine());
         return input;

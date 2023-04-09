@@ -21,7 +21,7 @@ public class Input {
     public int getInt(int min, int max){
         int input;
         do{
-            System.out.println("Enter a number that is within my range.");
+            System.out.println("Enter a number that is within " + min + " and " + max + ".");
             input = Integer.parseInt(scanner.nextLine());
         } while (input < min || input > max);
 
